@@ -1,6 +1,7 @@
 // import { SQLite } from 'expo-sqlite';
 import * as SQLite from 'expo-sqlite';
 
+
 const db = SQLite.openDatabase('places.db');
 
 export const init = () => {
